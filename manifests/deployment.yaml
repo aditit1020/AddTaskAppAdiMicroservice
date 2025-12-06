@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: appadi-add-tasks-api
-        image: acrdevAppAdi.azurecr.io/appadi-add-tasks-api:v1
+        image: acrdevappadi01.azurecr.io/appadi-add-tasks-api:v1
         ports:
         - containerPort: 8000
         env: 
